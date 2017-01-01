@@ -11,7 +11,7 @@ Setup on OpenWRT
 2. Move script to `/usr/bin/dyn-hover.sh`
 3. Setup a scheduled task as
 ```
-*/5 * * * * /usr/bin/dyn-hover.sh USERNAME PASSWORD DNSID
+*/5 * * * * /usr/bin/dyn-hover.sh USERNAME PASSWORD DNSID V4
 ```
 
 This will update your DNS record every 5 min to reflect the current external IP.
